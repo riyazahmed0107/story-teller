@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    background: linear-gradient(102deg,#923940 0%, #201770 80%);;
+}
+form{
+    background-color: transparent;
+    height: 100vh;
+    width: 80%;
+    
+    
+}
+label
+{
+    display: block;
+}
+input
+{
+    height: 25px;
+    width: 75%;
+    padding-left: 10px;
+    background-color: transparent;
+}
+label,input{
+    margin-left: 30px;
+    line-height: 1.5;
+}
+select
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 76%;
+    color: brown;
+    padding-left: 10px;
+}
+input[type ="radio"]
+{
+    height: 20px;
+
+}
+input[type="submit"]
+{
+    background-color: coral;
+    box-shadow: -2px 3px 5px 8px rgba(104,173,61,0.75);
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+input::placeholder
+{
+    color: navy;
+}
